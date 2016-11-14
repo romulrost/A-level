@@ -1,0 +1,88 @@
+
+body {
+	font-size: 16px;
+}
+.clearfix:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+menu {
+	margin-bottom: 40px;
+}
+menu li {
+	float: left;
+	list-style: none;
+	width: 24%;
+	background-color: #507299;
+	border-right: 1px solid #384E5B;
+	text-align: center;
+	padding: 10px 0 10px;
+
+}
+menu li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+main {
+	padding: 30px 20px;
+	width: 70%;
+	margin: 0 auto;
+	border-radius: 4px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-color: #E9E9E9;
+}
+section {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+section figure div {
+	width: 60px;
+}
+figure {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+.diagramm1 {
+	height: 70px;
+	background-color: #DE9797;
+}
+.diagramm2 {
+	height: 50px;
+	background-color: #979ADE;
+}
+.diagramm3 {
+	height: 30px;
+	background-color: #97DE99;
+}
+.diagramm4 {
+	height: 100px;
+	background-color: #DDDE97;
+}
+.diagramm5 {
+	height: 90px;
+	background-color: #DEC997;
+}
+.diagramm6 {
+	height: 60px;
+	background-color: #97DEDA;
+}
+.diagramm7 {
+	height: 10px;
+	background-color: #DE94D7;
+}
+.diagramm8 {
+	height: 35px;
+	background-color: #B097DE;
+}
+figcaption {
+	
+
+}

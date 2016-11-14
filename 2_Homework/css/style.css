@@ -1,0 +1,60 @@
+
+body {
+	font-size: 17px;
+}
+.clearfix:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+img {
+	border-radius: 15px;
+	width: 277px;
+	height: 182px;
+}
+/**--FLOATING IMAGES--**/
+menu {
+	margin-bottom: 40px;
+}
+
+.lexus {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+.mers {
+	float: left;
+	margin: 10px 10px 0 0;
+}
+menu li {
+	float: left;
+	list-style: none;
+	width: 24%;
+	background-color: #507299;
+	border-right: 1px solid #384E5B;
+	text-align: center;
+	padding: 10px 0 10px;
+
+}
+menu li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+main {
+	padding: 30px 20px;
+	width: 70%;
+	margin: 0 auto;
+	border-radius: 4px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-color: #E9E9E9;
+}
+
+/**--FLOATING BLOCKS--**/
+article {
+	float: left;
+	width: 300px;
+
+}
+.mainTask2 {
+	text-align: center;
+}

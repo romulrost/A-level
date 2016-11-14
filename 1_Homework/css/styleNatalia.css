@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+}
+header, footer {
+	background-color: #eee;
+	padding: 20px;
+}
+
+main aside {
+	float: left;
+	width: 30%;
+}

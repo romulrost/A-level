@@ -1,0 +1,43 @@
+header, footer, aside, figure, article {
+	border: 1px solid #000;
+	margin: 10px 0 10px;
+}
+
+header {
+	height: 100px;
+	background-color: #49C49F;
+}
+main {
+	overflow: hidden;
+	}
+	aside {
+		background-color: #6088C4;
+		width: 150px;
+		height: 400px;
+		float: left;
+	}
+	section {
+		margin-left: 200px;
+		}
+
+		article {
+			height: 100px;
+			background-color: #C0E204;
+
+		}
+		
+		.info {
+			overflow: hidden;
+		}
+			figure {
+				height: 90px;
+				width: 90px;
+				background-color: #FDF0E3;
+				float: left;
+				margin: 32px 0 32px;
+			}
+
+footer {
+	height: 100px;
+	background-color: #49C49F;
+}
