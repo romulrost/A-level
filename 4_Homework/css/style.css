@@ -6,7 +6,7 @@ body, h1, h2, li, a, ul {
 	padding: 0;
 	margin: 0;
 }
-.clearfix {
+.clearfix:after {
 	content: "";
 	display: block;
 	clear: both;
@@ -33,9 +33,10 @@ body {
 }
 /**HEADER**/
 .header {
+	width: 100%;
 	background-color: #363636;
-	overflow: hidden;
-	/*position: fixed;*/
+	position: fixed;
+
 }
 .logo {
 	float: left;
