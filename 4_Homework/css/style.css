@@ -1,0 +1,74 @@
+/**CONFIGURES**/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,cyrillic);
+
+body, h1, h2, li, a, ul {
+	padding: 0;
+	margin: 0;
+}
+.clearfix {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*.-push-left {
+	float: left;
+}
+.-push-right {
+	float: right;
+	}*/
+
+}
+
+body {
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 14px;
+	color: #6B6B6B;
+	background-color: #F2F2F2;
+}
+.wrapper {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+/**HEADER**/
+.header {
+	background-color: #363636;
+	overflow: hidden;
+	/*position: fixed;*/
+}
+.logo {
+	float: left;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+}
+.logo a {
+	display: block;
+	padding: 20px 0 20px;
+	text-decoration: none;
+	color: #DADADA;
+}
+.menu {
+	float: right;
+}
+.menu li {
+	float: left;
+	margin: 0 10px 0;
+	list-style: none;
+	padding: 25px 0 20px;
+}
+.menu li a {
+	display: block;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 12px;
+	transition: all 0.3s;
+	text-decoration: none;
+}
+.menu li a:hover {
+	color: #DA4453;
+}
+
+
+/**CONTENT**/

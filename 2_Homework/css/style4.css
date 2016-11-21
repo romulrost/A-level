@@ -1,4 +1,8 @@
 
+* {
+	margin: 0;
+}
+
 body {
 	font-size: 16px;
 }
@@ -15,8 +19,6 @@ menu li {
 	float: left;
 	list-style: none;
 	width: 24%;
-	background-color: #507299;
-	border-right: 1px solid #384E5B;
 	text-align: center;
 	padding: 10px 0 10px;
 
@@ -25,6 +27,15 @@ menu li a {
 	color: #fff;
 	text-decoration: none;
 	font-size: 18px;
+	display: block;
+	background-color: #507299;
+	line-height: 40px;
+	border-right: 1px solid #384E5B;
+	transition: 1s all;
+}
+menu li a:hover {
+	background-color: #000;
+	font-size: 20px;
 }
 main {
 	padding: 30px 20px;
@@ -36,7 +47,7 @@ main {
 }
 section {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: flex-end;
 }
 
