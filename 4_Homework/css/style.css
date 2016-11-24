@@ -2,23 +2,11 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,cyrillic);
 
-body, h1, h2, li, a, ul {
-	padding: 0;
-	margin: 0;
-}
 .clearfix:after {
 	content: "";
 	display: block;
 	clear: both;
-}
-
-/*.-push-left {
-	float: left;
-}
-.-push-right {
-	float: right;
-	}*/
-
+	width: 100%;
 }
 
 body {
@@ -26,10 +14,6 @@ body {
 	font-size: 14px;
 	color: #6B6B6B;
 	background-color: #F2F2F2;
-}
-.wrapper {
-	max-width: 1170px;
-	margin: 0 auto;
 }
 /**HEADER**/
 .header {
@@ -70,6 +54,106 @@ body {
 .menu li a:hover {
 	color: #DA4453;
 }
-
-
 /**CONTENT**/
+.wrapper {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding-top: 100px;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+.content {
+	box-sizing: border-box;
+	max-width: 780px;
+	margin: 0 15px 0 15px;
+	border: 1px solid #DADADA;
+	float: left;
+	width: 100%;
+}
+.image {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 20px;
+	background-color: #fff;
+}
+.road-img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	background-image: url(../img/road.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: opacity 1s;
+}
+.road-img:hover {
+	opacity: 0.5;
+}
+.content-description {
+	background-color: #fff;
+	padding: 45px 50px;
+	color: #6B6B6B;
+}
+.content-title {
+	font-size: 28px;
+	margin-bottom: 30px;
+	font-weight: bold;
+
+}
+.content-title a {
+	color: #444444;
+	text-decoration: none;
+	transition: color 1.2s;
+}
+.content-title a:hover {
+	color: #DA4453;
+}
+.meta-info {
+	font-size: 13px;
+	padding-bottom: 30px;
+}
+.meta-menu li {
+	display: inline-block;
+	margin-right: 10px;
+}
+.tag-description {
+	line-height: 1.5;
+	font-size: 12px;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+.button-block {
+	text-align: right;
+	margin-top: 38px;
+}
+.btn-read {
+	/*display: block;*/
+	background-color: #DA4453;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 11px 13px;
+	font-size: 13px;
+	border-radius: 5px;
+	color: #fff;
+	border: 2px solid transparent;
+	transition: color 1.3s;
+}
+.btn-read:hover {
+	border: 2px solid #000;
+	color: #000;
+}
+
+/**SIDEBAR**/
+.sidebar {
+	box-sizing: border-box;
+	max-width: 340px;
+	width: 100%;
+	/*height: 100%*/
+	border: 1px solid red;
+	float: right;
+
+	padding: 20px;
+	text-align: justify;
+	line-height: 1.5;
+}

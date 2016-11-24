@@ -37,48 +37,48 @@ span {
 @media screen and (max-width: 780px) {
 	/*.first-block {
 		flex-basis: 400px;
-	}*/
-	.first-block {
-		flex-flow: column wrap;
-		/*max-height: 40%;*/
-		height: 400px;
-	}
-	.fb1 {
-		width: calc(50% + 6px);
-		height: 100%;
-	}
-	.fb2, .fb3, .fb4 {
-		width: 50%;
-		margin-right: 0;
-	}
-	.sb6 {
-		margin-right: 10px;
-	}
-	.second-block {
-		flex-direction: row-reverse;
-	}
-	.sb5 {
-		/*order: 1;*/
-		margin-right: 0;
-	}
-}
-
-@media screen and (max-width: 480px) {
-	.first-block, .second-block {
-		flex-flow: column;
+		}*/
+		.first-block {
+			flex-flow: column wrap;
+			/*max-height: 40%;*/
+			height: 400px;
+		}
+		.fb1 {
+			width: calc(50% + 6px);
+			height: 100%;
+		}
+		.fb2, .fb3, .fb4 {
+			width: 50%;
+			margin-right: 0;
+		}
+		.sb6 {
+			margin-right: 10px;
+		}
+		.second-block {
+			flex-direction: row-reverse;
+		}
+		.sb5 {
+			/*order: 1;*/
+			margin-right: 0;
+		}
 	}
 
-	.fb1, .fb2, .fb3, .fb4, .sb6 {
-		margin: 25px 25px 0px 25px;
-		height: 70px;
-		overflow: hidden;
-		width: 100%;
-	}
-	.sb5 {
-		margin: 0px 25px 0px 25px;
-		height: 70px;
-		overflow: hidden;
-	}
+	@media screen and (max-width: 480px) {
+		.first-block, .second-block {
+			flex-flow: column;
+		}
+
+		.fb1, .fb2, .fb3, .fb4, .sb6 {
+			margin: 25px 25px 0px 25px;
+			height: 70px;
+			overflow: hidden;
+			width: 100%;
+		}
+		.sb5 {
+			margin: 0px 25px 0px 25px;
+			height: 70px;
+			overflow: hidden;
+		}
 		/*.second-block article:last-child {
 			margin-right: 25;
 		}
